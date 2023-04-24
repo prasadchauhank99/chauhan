@@ -1,0 +1,10 @@
+// Area of circle
+class Sing
+{
+public static void main(String args[])
+{
+	Circle c = new Circle(4.0,3.0,5.0);
+	System.out.println("The circumference"+c.circumference());
+	System.out.println("The Area"+c.area());
+}
+}
